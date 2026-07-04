@@ -7,6 +7,7 @@
 
 import SwiftUI
 import RealityKit
+import ARKit
 
 struct ContentView : View {
 
@@ -28,11 +29,18 @@ struct ContentView : View {
             content.add(anchor)
 
             content.camera = .spatialTracking
-
+            
+            // Create a toy car
+            if let carEntity = try? Entity.load(named: "toy_car") {
+                let anchorEntity = AnchorEntity(plane: .horizontal)
+                anchor.addChild(carEntity)
+            }
+            else {
+                print("no car loaded")
+            }
         }
         .edgesIgnoringSafeArea(.all)
     }
-
 }
 
 #Preview {
