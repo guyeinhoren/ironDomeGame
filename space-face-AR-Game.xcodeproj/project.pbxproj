@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E4648C822FF8CC9900DAB67E /* space-space-AR-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "space-space-AR-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4648C922FF8CC9A00DAB67E /* space-space-AR-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "space-space-AR-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4648C9C2FF8CC9A00DAB67E /* space-space-AR-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "space-space-AR-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4648C822FF8CC9900DAB67E /* space-face-AR-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "space-face-AR-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4648C922FF8CC9A00DAB67E /* space-face-AR-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "space-face-AR-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4648C9C2FF8CC9A00DAB67E /* space-face-AR-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "space-face-AR-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E4648CA42FF8CC9A00DAB67E /* Exceptions for "ironGameDome" folder in "space-space-AR-game" target */ = {
+		E4648CA42FF8CC9A00DAB67E /* Exceptions for "ironGameDome" folder in "space-face-AR-game" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E4648C812FF8CC9900DAB67E /* space-space-AR-game */;
+			target = E4648C812FF8CC9900DAB67E /* space-face-AR-game */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		E4648C842FF8CC9900DAB67E /* ironGameDome */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E4648CA42FF8CC9A00DAB67E /* Exceptions for "ironGameDome" folder in "space-space-AR-game" target */,
+				E4648CA42FF8CC9A00DAB67E /* Exceptions for "ironGameDome" folder in "space-face-AR-game" target */,
 			);
 			path = ironGameDome;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		E4648C832FF8CC9900DAB67E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4648C822FF8CC9900DAB67E /* space-space-AR-game.app */,
-				E4648C922FF8CC9A00DAB67E /* space-space-AR-gameTests.xctest */,
-				E4648C9C2FF8CC9A00DAB67E /* space-space-AR-gameUITests.xctest */,
+				E4648C822FF8CC9900DAB67E /* space-face-AR-game.app */,
+				E4648C922FF8CC9A00DAB67E /* space-face-AR-gameTests.xctest */,
+				E4648C9C2FF8CC9A00DAB67E /* space-face-AR-gameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4648C812FF8CC9900DAB67E /* space-space-AR-game */ = {
+		E4648C812FF8CC9900DAB67E /* space-face-AR-game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4648CA52FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-space-AR-game" */;
+			buildConfigurationList = E4648CA52FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-face-AR-game" */;
 			buildPhases = (
 				E4648C7E2FF8CC9900DAB67E /* Sources */,
 				E4648C7F2FF8CC9900DAB67E /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				E4648C842FF8CC9900DAB67E /* ironGameDome */,
 			);
-			name = "space-space-AR-game";
+			name = "space-face-AR-game";
 			packageProductDependencies = (
 			);
 			productName = ironGameDome;
-			productReference = E4648C822FF8CC9900DAB67E /* space-space-AR-game.app */;
+			productReference = E4648C822FF8CC9900DAB67E /* space-face-AR-game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4648C912FF8CC9A00DAB67E /* space-space-AR-gameTests */ = {
+		E4648C912FF8CC9A00DAB67E /* space-face-AR-gameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4648CAA2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-space-AR-gameTests" */;
+			buildConfigurationList = E4648CAA2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-face-AR-gameTests" */;
 			buildPhases = (
 				E4648C8E2FF8CC9A00DAB67E /* Sources */,
 				E4648C8F2FF8CC9A00DAB67E /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				E4648C952FF8CC9A00DAB67E /* ironGameDomeTests */,
 			);
-			name = "space-space-AR-gameTests";
+			name = "space-face-AR-gameTests";
 			packageProductDependencies = (
 			);
 			productName = ironGameDomeTests;
-			productReference = E4648C922FF8CC9A00DAB67E /* space-space-AR-gameTests.xctest */;
+			productReference = E4648C922FF8CC9A00DAB67E /* space-face-AR-gameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E4648C9B2FF8CC9A00DAB67E /* space-space-AR-gameUITests */ = {
+		E4648C9B2FF8CC9A00DAB67E /* space-face-AR-gameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4648CAD2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-space-AR-gameUITests" */;
+			buildConfigurationList = E4648CAD2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-face-AR-gameUITests" */;
 			buildPhases = (
 				E4648C982FF8CC9A00DAB67E /* Sources */,
 				E4648C992FF8CC9A00DAB67E /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				E4648C9F2FF8CC9A00DAB67E /* ironGameDomeUITests */,
 			);
-			name = "space-space-AR-gameUITests";
+			name = "space-face-AR-gameUITests";
 			packageProductDependencies = (
 			);
 			productName = ironGameDomeUITests;
-			productReference = E4648C9C2FF8CC9A00DAB67E /* space-space-AR-gameUITests.xctest */;
+			productReference = E4648C9C2FF8CC9A00DAB67E /* space-face-AR-gameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4648C7D2FF8CC9900DAB67E /* Build configuration list for PBXProject "space-space-AR-game" */;
+			buildConfigurationList = E4648C7D2FF8CC9900DAB67E /* Build configuration list for PBXProject "space-face-AR-game" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4648C812FF8CC9900DAB67E /* space-space-AR-game */,
-				E4648C912FF8CC9A00DAB67E /* space-space-AR-gameTests */,
-				E4648C9B2FF8CC9A00DAB67E /* space-space-AR-gameUITests */,
+				E4648C812FF8CC9900DAB67E /* space-face-AR-game */,
+				E4648C912FF8CC9A00DAB67E /* space-face-AR-gameTests */,
+				E4648C9B2FF8CC9A00DAB67E /* space-face-AR-gameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		E4648C942FF8CC9A00DAB67E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4648C812FF8CC9900DAB67E /* space-space-AR-game */;
+			target = E4648C812FF8CC9900DAB67E /* space-face-AR-game */;
 			targetProxy = E4648C932FF8CC9A00DAB67E /* PBXContainerItemProxy */;
 		};
 		E4648C9E2FF8CC9A00DAB67E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4648C812FF8CC9900DAB67E /* space-space-AR-game */;
+			target = E4648C812FF8CC9900DAB67E /* space-face-AR-game */;
 			targetProxy = E4648C9D2FF8CC9A00DAB67E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +491,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/space-space-AR-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/space-space-AR-game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/space-face-AR-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/space-face-AR-game";
 			};
 			name = Debug;
 		};
@@ -513,7 +513,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/space-space-AR-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/space-space-AR-game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/space-face-AR-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/space-face-AR-game";
 			};
 			name = Release;
 		};
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4648C7D2FF8CC9900DAB67E /* Build configuration list for PBXProject "space-space-AR-game" */ = {
+		E4648C7D2FF8CC9900DAB67E /* Build configuration list for PBXProject "space-face-AR-game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4648CA82FF8CC9A00DAB67E /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4648CA52FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-space-AR-game" */ = {
+		E4648CA52FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-face-AR-game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4648CA62FF8CC9A00DAB67E /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4648CAA2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-space-AR-gameTests" */ = {
+		E4648CAA2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-face-AR-gameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4648CAB2FF8CC9A00DAB67E /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4648CAD2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-space-AR-gameUITests" */ = {
+		E4648CAD2FF8CC9A00DAB67E /* Build configuration list for PBXNativeTarget "space-face-AR-gameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4648CAE2FF8CC9A00DAB67E /* Debug */,
